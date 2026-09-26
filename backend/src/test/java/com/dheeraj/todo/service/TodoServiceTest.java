@@ -13,13 +13,11 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import com.dheeraj.todo.entity.Todo;
 import com.dheeraj.todo.repository.TodoRepository;
 
 @ExtendWith(MockitoExtension.class)
-@SpringBootTest
 class TodoServiceTest{
 
 	@Mock
