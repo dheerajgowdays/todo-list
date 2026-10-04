@@ -5,7 +5,7 @@ function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      title: 'Learn Java',
+      title: 'Learn Java OOPs',
       description: 'Learn depth java',
       completed: false
     },
@@ -29,7 +29,6 @@ function App() {
       description: '',
       completed: false
     }
-
     setTodos([...todos, newTodo])
     setTitle('')
   }
