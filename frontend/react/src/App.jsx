@@ -8,6 +8,11 @@ function App() {
       title: 'Learn Java OOPs',
       description: 'Learn depth java',
       completed: false
+    },{
+      id:2,
+      title: 'Learn Spring',
+      description: 'Learn spring boot'
+      ,completed: false
     }
   ])
 
